@@ -9,16 +9,10 @@ int main(void)
 
 {
 
-	char v;
-	int w;
-	long int x;
-	long long int y;
-	float z;
-
-	printf("Size of a char: %ld byte(s)\n", sizeof(v));
-	printf("Size of a int: %ld byte(s)\n", sizeof(w));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(x));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(y));
-	printf("Size of a float: %ld byte(s)\n", sizeof(z));
-	return (0);
+	printf("Size of a char: %ld byte(s)\n", sizeof(char));
+	printf("Size of a int: %ld byte(s)\n", sizeof(int));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %ld byte(s)\n", sizeof(float));
+	return (0);	
 }
