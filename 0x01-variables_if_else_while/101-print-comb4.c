@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - printing a-z
+ * main - printing combinations of 3 digit
  *
  * Return:0(sucess)
  */
