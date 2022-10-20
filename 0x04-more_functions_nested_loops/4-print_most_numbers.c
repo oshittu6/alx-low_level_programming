@@ -7,9 +7,9 @@
 
 void print_most_numbers(void)
 {
-	int c;
+	int c = 0
 
-	for (c = '0'; c <= '9'; c++)
+	while (c < 10; c++)
 	{
 		if (c != '2' || c != '4')
 			_putchar(c + '0');
