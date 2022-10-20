@@ -2,13 +2,13 @@
 
 /**
 *print_numbers - print 0123456789
-* owned by Bwave ICT
+* C is fun
 *Return: void
 */
 
 void print_numbers(void)
 {
-	int i;
+	char i;
 
 	for (i = '0'; i <= '9'; i++)
 	{
