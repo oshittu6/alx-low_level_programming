@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- * Description: prints the numbers 1 - 100 w/
+ * Description: prints the numbers 1 - 100
  * Fizz for multiples of 3, Buzz for multiples of 5,
  * and FizzBuzz for multiples of both
  *
@@ -17,16 +17,16 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
-			_putchar("FizzBuzz");
+			printf("FizzBuzz");
 		else if (i % 3 == 0)
-			_putchar("Fizz");
+			printf("Fizz");
 		else if (i % 5 == 0)
-			_putchar("Buzz");
+			printf("Buzz");
 		else
-			_putchar("%i", i);
+			printf("%i", i);
 		if (i < 100)
-			_putchar(" ");
+			printf(" ");
 	}
-	_putchar("\n");
+	printf("\n");
 	return (0);
 }
